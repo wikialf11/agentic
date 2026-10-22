@@ -1,0 +1,14 @@
+{
+  "name": "agentic",
+  "version": "2.0.0",
+  "description": "Agente local en la terminal para modelos de Ollama, con MCPs y Skills",
+  "type": "module",
+  "bin": { "agentic": "cli.js" },
+  "scripts": { "start": "node cli.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@modelcontextprotocol/server-filesystem": "2026.8.31",
+    "@modelcontextprotocol/server-sequential-thinking": "2026.8.31",
+    "@modelcontextprotocol/server-memory": "2026.8.31"
+  }
+}
